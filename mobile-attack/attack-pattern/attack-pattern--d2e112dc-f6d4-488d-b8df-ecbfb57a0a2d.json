@@ -1,0 +1,66 @@
+{
+    "type": "bundle",
+    "id": "bundle--3d12fcef-6039-438e-9d87-ee2299536e7a",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "attack-pattern--d2e112dc-f6d4-488d-b8df-ecbfb57a0a2d",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "name": "Jamming or Denial of Service",
+            "description": "An attacker could jam radio signals (e.g. Wi-Fi, cellular, GPS) to prevent the mobile device from communicating. (Citation: NIST-SP800187)",
+            "external_references": [
+                {
+                    "external_id": "T1464",
+                    "url": "https://attack.mitre.org/techniques/T1464",
+                    "source_name": "mitre-mobile-attack"
+                },
+                {
+                    "external_id": "CEL-7",
+                    "url": "https://pages.nist.gov/mobile-threat-catalogue/cellular-threats/CEL-7.html",
+                    "source_name": "NIST Mobile Threat Catalogue"
+                },
+                {
+                    "external_id": "CEL-8",
+                    "url": "https://pages.nist.gov/mobile-threat-catalogue/cellular-threats/CEL-8.html",
+                    "source_name": "NIST Mobile Threat Catalogue"
+                },
+                {
+                    "external_id": "LPN-5",
+                    "url": "https://pages.nist.gov/mobile-threat-catalogue/lan-pan-threats/LPN-5.html",
+                    "source_name": "NIST Mobile Threat Catalogue"
+                },
+                {
+                    "external_id": "GPS-0",
+                    "url": "https://pages.nist.gov/mobile-threat-catalogue/gps-threats/GPS-0.html",
+                    "source_name": "NIST Mobile Threat Catalogue"
+                },
+                {
+                    "url": "http://csrc.nist.gov/publications/drafts/800-187/sp800_187_draft.pdf",
+                    "description": "Jeffrey Cichonski, Joshua M Franklin, Michael Bartock. (2017, December). Guide to LTE Security. Retrieved January 20, 2017.",
+                    "source_name": "NIST-SP800187"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "x_mitre_platforms": [
+                "Android",
+                "iOS"
+            ],
+            "x_mitre_tactic_type": [
+                "Without Adversary Device Access"
+            ],
+            "x_mitre_version": "1.0",
+            "x_mitre_old_attack_id": "MOB-T1067",
+            "type": "attack-pattern",
+            "kill_chain_phases": [
+                {
+                    "phase_name": "network-effects",
+                    "kill_chain_name": "mitre-mobile-attack"
+                }
+            ],
+            "modified": "2018-10-17T00:14:20.652Z",
+            "created": "2017-10-25T14:48:25.740Z"
+        }
+    ]
+}
