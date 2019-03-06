@@ -7,6 +7,8 @@ NLP to understand relationship between CVE and MITRE ATT&amp;CK Techniques.
 
 To run this notebook, please run the following commands through bash:
 
+`pip install stix2`
+
 `pip install gensim`
 
 `pip install pandas`
