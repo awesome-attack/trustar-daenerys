@@ -4,9 +4,15 @@ Documentation + Tool in progress. This is an initial prototype. Please keep chec
 
 To run this notebook, please run the following commands through bash:
 `pip install gensim`
+
 `pip install pandas`
+
 `pip install numpy`
+
 `pip install bs4`
+
 `pip install nltk`
+
 `pip install sklearn`
+
 `pip install matplotlib`
